@@ -50,7 +50,7 @@ web browser.
 
 Here is what your configuration should look like:
 
-![tool config](/codekitchen/lti_outcomes_example/raw/master/tool_config.png)
+![tool config](/instructure/lti_example/raw/master/tool_config.png)
 
 Now that the tool is configured, you'll need to set up an Assignment
 that points to the tool. This step is what lets you define how many
@@ -61,7 +61,7 @@ On the Assignments tab in the same course, create a new assignment of
 type "External Tool". Click the "more options" link, and you'll see a
 dialog asking you which tool to use:
 
-![assignment config](/codekitchen/lti_outcomes_example/raw/master/assignment_config.png)
+![assignment config](/instructure/lti_example/raw/master/assignment_config.png)
 
 Select your newly-configured tool and save the assignment. Now when you
 go to the assignment page as a student, the tool will launch, and you
