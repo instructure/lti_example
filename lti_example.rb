@@ -45,7 +45,7 @@ post "/assessment/start" do
   # only assignment tools support the outcome service, since only they appear
   # in the Canvas gradebook.
   unless params['lis_outcome_service_url'] && params['lis_result_sourcedid']
-    return %{It looks like this LTI tool wasn't launched as an assignment, or you are trying to take it as a teacher rather than as a a student. Make sure to set up an external tool assignment as outlined <a href="https://github.com/instructure/lti_example">in the README</a> for this example.}
+    return %{It looks like this LTI tool wasn't launched as an assignment, or you are trying to take it as a teacher rather than as a a student. Make sure to set up an external tool assignment as outlined <a target="_blank" href="https://github.com/instructure/lti_example">in the README</a> for this example.}
   end
 
   # store the relevant parameters from the launch into the user's session, for
